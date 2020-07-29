@@ -164,7 +164,9 @@ KP_liberation_fuel_max = 45;
 
 /* - Gameplay constant settings.
 Name of the savegame namespace inside of the [ServerProfileName].vars.Arma3Profile file. */
-GRLIB_save_key = "ARGA_" + (toUpper worldName) + "_SAVEGAME";
+//GRLIB_save_key = "ARGA_" + (toUpper worldName) + "_SAVEGAME";
+// Puse el original para que no pierdan lo jugado hasta ahora
+GRLIB_save_key = "KP_LIBERATION_" + (toUpper worldName) + "_SAVEGAME";
 
 GRLIB_side_friendly = WEST;                                             // Friendly side.
 GRLIB_side_enemy = EAST;                                                // Enemy side.
@@ -177,13 +179,13 @@ GRLIB_color_enemy = "ColorOPFOR";                                       // Enemy
 GRLIB_color_enemy_bright = "ColorRED";                                  // Enemy sector marker color (activated).
 
 GRLIB_fob_range = 250;                                                  // Build range around the main FOB building.
-GRLIB_halo_altitude = 1000;                                             // Altitude in metres for the HALO jump.
+GRLIB_halo_altitude = 800;                                              // Altitude in metres for the HALO jump.
 GRLIB_secondary_missions_costs = [15, 10, 8];                           // Intel price for the secondary missions [FOB hunting, Convoy ambush, SAR].
 GRLIB_secondary_objective_impact = 0.6;                                 // The percentage impact against enemy combat readiness for a successful FOB hunt.
 GRLIB_recycling_percentage = 0.8;                                       // Percentage of resources you get back from recycling.
 KP_liberation_production_interval = 30;                                 // Time in minutes until a production process is finished, when resources multiplier is set to 1.
 
-GRLIB_sector_size = 700;                                               // Range to activate a sector.
+GRLIB_sector_size = 700;                                                // Range to activate a sector.
 GRLIB_capture_size = 200;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.4;                                  // Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
