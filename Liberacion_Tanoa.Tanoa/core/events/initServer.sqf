@@ -58,11 +58,11 @@ if (_disableBluforIA == 1) then {
   } foreach allUnits;
 };
 
-execVM "core\scripts\init_objs_server.sqf";
+// execVM "core\scripts\init_objs_server.sqf";
 
-execVM "core\scripts\db\init_log_system.sqf";
+// execVM "core\scripts\db\init_log_system.sqf";
 
-if (!isDedicated) then { execVM "core\scripts\check_roles.sqf" };
+// if (!isDedicated) then { execVM "core\scripts\check_roles.sqf" };
 
 /*******************************************************************************
                           Realizado por |ArgA|Ignacio
