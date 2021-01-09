@@ -2,7 +2,10 @@
                           Realizado por |ArgA|MIV
 *******************************************************************************/
 
-call compile preprocessFileLineNumbers "core\events\initServer.sqf";
+private _headlessClients = entities "HeadlessClient_F"; 
+private _aliveHumanPlayers = (allPlayers select {alive _x}) - _headlessClients;
+
+count _aliveHumanPlayers
 
 /*******************************************************************************
                           Realizado por |ArgA|MIV

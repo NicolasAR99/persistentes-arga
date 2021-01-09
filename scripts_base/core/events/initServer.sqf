@@ -2,7 +2,9 @@
                           Realizado por |ArgA|MIV
 *******************************************************************************/
 
-call compile preprocessFileLineNumbers "core\events\initServer.sqf";
+execVM "core\scripts\db\init_log_system.sqf";
+
+execVM "core\scripts\show_fps.sqf";
 
 /*******************************************************************************
                           Realizado por |ArgA|MIV

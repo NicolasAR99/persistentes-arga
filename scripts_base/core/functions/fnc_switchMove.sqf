@@ -1,9 +1,10 @@
 /*******************************************************************************
-                          Realizado por |ArgA|MIV
+                          Realizado por |ArgA|Ignacio
 *******************************************************************************/
 
-call compile preprocessFileLineNumbers "core\events\initServer.sqf";
+params["_object","_anim"];
+_object switchMove _anim;
 
 /*******************************************************************************
-                          Realizado por |ArgA|MIV
+                          Realizado por |ArgA|Ignacio
 *******************************************************************************/

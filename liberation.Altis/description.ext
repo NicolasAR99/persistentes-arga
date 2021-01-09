@@ -13,6 +13,9 @@
         https://community.bistudio.com/wiki/Description.ext
 */
 
+#include "core\private_settings.hpp"
+#include "arga_settings.hpp"
+
 /*
     ----- General -----
 */
@@ -228,6 +231,7 @@ class CfgDiscordRichPresence {
 };
 
 class CfgFunctions {
+    #include "core\functions.hpp"
     #include "CfgFunctions.hpp"
     #include "KP\KPPLM\KPPLM_functions.hpp"
 };

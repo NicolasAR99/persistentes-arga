@@ -18,6 +18,8 @@
 */
 
 #include "core\private_settings.hpp"
+#include "arga_settings.hpp"
+
 
 // Gametype and min/max players
 class Header {
@@ -232,7 +234,6 @@ class CfgDiscordRichPresence {
 class CfgFunctions {
     #include "CfgFunctions.hpp"
     #include "KP\KPPLM\KPPLM_functions.hpp"
-    #include "core\functions.hpp"
 };
 
 class CfgRespawnTemplates {
@@ -251,4 +252,3 @@ class CfgTaskDescriptions {
 #include "KP\KPGUI\KPGUI_defines.hpp"
 #include "KP\KPPLM\ui\KPPLM_dialog.hpp"
 
-#include "core\post_description.hpp"

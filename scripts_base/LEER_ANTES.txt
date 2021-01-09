@@ -1,0 +1,11 @@
+Al copiar los scripts tendremos que copiar el contenido de un archivo a mano en cada persistente.
+
+Pasos a seguir:
+
+1 - Abrir el archivo _description.ext de esta carpeta
+
+2 - Abrir el archivo description.ext de la persistente (liberation) a modificar.
+
+3 - Copiar las lineas (como esta indicado en el archivo de esta carpeta) en el nuevo archivo description.ext
+
+4 - No hace falta copiar este archivo en la persistente/liberation

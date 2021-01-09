@@ -1,9 +1,12 @@
 /*******************************************************************************
-                          Realizado por |ArgA|MIV
+                          Realizado por |ArgA|MandI
 *******************************************************************************/
 
-call compile preprocessFileLineNumbers "core\events\initServer.sqf";
+params ["_object", "_state"];
+
+_object enableSimulationGlobal _state;
+_object hideObjectGlobal !_state;
 
 /*******************************************************************************
-                          Realizado por |ArgA|MIV
+                          Realizado por |ArgA|MandI
 *******************************************************************************/

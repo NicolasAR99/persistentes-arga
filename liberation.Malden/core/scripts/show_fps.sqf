@@ -7,7 +7,7 @@ private _enableShowFpsLog = getMissionConfigValue ["FPS_LOG", 1] == 1;
 private _enableShowFpsDB  = getMissionConfigValue ["FPS_DB",  1] == 1;
 private _fpsIdleTime      = getMissionConfigValue ["FPS_IDLE_TIME",  30];
 
-if (!_enableShowFpsMap && !_enableShowFpsLog) exitWith { };
+if (!_enableShowFpsMap && !_enableShowFpsLog && !_enableShowFpsDB) exitWith { };
 
 private _sourcestr = "Server";
 private _position = 0;
