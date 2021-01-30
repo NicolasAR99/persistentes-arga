@@ -8,4 +8,6 @@ Pasos a seguir:
 
 3 - Copiar las lineas (como esta indicado en el archivo de esta carpeta) en el nuevo archivo description.ext
 
-4 - No hace falta copiar este archivo en la persistente/liberation
+4 - Copiar los archivos de esta carpeta a la carpeta raiz de la liberation (Excepto por _description.ext, NO REEMPLAZARLO).
+
+5 - No hace falta copiar este archivo en la persistente/liberation
