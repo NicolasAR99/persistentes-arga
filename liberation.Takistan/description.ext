@@ -17,6 +17,9 @@
     ----- General -----
 */
 
+#include "core\private_settings.hpp"
+#include "arga_settings.hpp"
+
 // Gametype and min/max players
 class Header {
     gameType = "CTI";
@@ -229,7 +232,8 @@ class CfgDiscordRichPresence {
 
 class CfgFunctions {
     #include "CfgFunctions.hpp"
-    #include "KP\KPPLM\KPPLM_functions.hpp"
+    #include "KP\KPPLM\KPPLM_fuctions.hpp"
+    #include "core\functions.hpp"
 };
 
 class CfgRespawnTemplates {
