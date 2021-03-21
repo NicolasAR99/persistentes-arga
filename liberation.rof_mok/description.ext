@@ -40,7 +40,7 @@ briefingName = $STR_MISSION_TITLE;
 
 // Path to image which will be displayed when the mission is highlighted on the mission selection screen.
 // Image should be .paa format and in 2:1 aspect ratio – ideally 1024x512 (Arma 3).
-overviewPicture = "res\logo.paa";
+overviewPicture = "res\logo.jpg";
 
 // Text to be displayed below the overviewPicture on the mission selection screen
 overviewText = "Killahpotatoes & ArgA";
@@ -90,7 +90,7 @@ respawnTemplates[] = {};
 respawn = 3;
 
 // Set respawn delay in seconds.
-respawndelay = 3;
+respawndelay = 5;
 
 // Show the scoreboard and respawn countdown timer for a player if he is killed with respawn type BASE.
 respawnDialog = 0;
