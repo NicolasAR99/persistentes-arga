@@ -32,10 +32,9 @@ GRLIB_whitelisted_steamids = [
 "76561198310965821",    //Lucho
 "76561198179506346",    //Kalam
 "76561198013052435",    //Locofer
-"76561198047706564",    //Huaiqui
+"76561198047706564"    //Huaiqui
 
-        
-
+    
 ];
 
 // Allowed individual player names. Note that this method is not very secure contrary to SteamIDs.
