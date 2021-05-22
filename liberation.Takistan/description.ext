@@ -24,11 +24,11 @@
 class Header {
     gameType = "CTI";
     minPlayers = 1;
-    maxPlayers = 50;
+    maxPlayers = 34;
 };
 
 // Name of Mission author(s) and contributors. Obviously you can only add and not (!) remove someone.
-author = "ArgA";
+author = "[GREUH] Zbug & McKeewa, KP Liberation Dev Team";
 
 
 /*
@@ -40,7 +40,7 @@ briefingName = $STR_MISSION_TITLE;
 
 // Path to image which will be displayed when the mission is highlighted on the mission selection screen.
 // Image should be .paa format and in 2:1 aspect ratio – ideally 1024x512 (Arma 3).
-overviewPicture = "res\lib.jpg";
+overviewPicture = "res\lib.paa";
 
 // Text to be displayed below the overviewPicture on the mission selection screen
 overviewText = "www.killahpotatoes.de";
@@ -52,11 +52,11 @@ overviewText = "www.killahpotatoes.de";
 
 // String (usually mission name) shown during mission loading.
 // The string is shown in a slightly larger font above the loadScreen.
-onLoadName = "Liberacion de Takistan";
+onLoadName = $STR_MISSION_TITLE;
 
 // You can define a picture to be shown while the mission is loaded.
 // The path is relative to the mission folder.
-loadScreen = "res\lib.jpg";
+loadScreen = "res\lib.paa";
 
 // Displays a message while the mission is loading below the loadScreen picture.
 onLoadMission = "www.killahpotatoes.de";
@@ -114,13 +114,13 @@ respawnOnStart = 0;
 corpseManagerMode = 1;
 
 // Corpse limit before which (<=) corpseRemovalMaxTime applies and after which (>) corpseRemovalMinTime applies.
-corpseLimit = 100;
+corpseLimit = 50;
 
 // Remove all bodies that have been dead longer than corpseRemovalMinTime when corpseLimit is reached.
 corpseRemovalMinTime = 600;
 
 // Maximum time a corpse can remain on the ground if total number of corpses is equal or under corpseLimit.
-corpseRemovalMaxTime = 1800;
+corpseRemovalMaxTime = 3600;
 
 // Sets the mode for wreck removal manager.
 // 0 = None                 - None of the vehicles are managed by the manager
@@ -232,7 +232,7 @@ class CfgDiscordRichPresence {
 
 class CfgFunctions {
     #include "CfgFunctions.hpp"
-    #include "KP\KPPLM\KPPLM_fuctions.hpp"
+    #include "KP\KPPLM\KPPLM_functions.hpp"
     #include "core\functions.hpp"
 };
 
