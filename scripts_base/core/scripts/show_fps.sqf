@@ -32,7 +32,7 @@ if (_enableShowFpsMap) then {
 	_myfpsmarker setMarkerSize [0.7, 0.7];
 };
 
-while {true} do {
+while { true } do {
 	private _myfps = diag_fps;
 	private _localgroups = {local _x} count allGroups;
 	private _localunits = {local _x && !(isPlayer _x)} count (allUnits select {simulationEnabled _x});
