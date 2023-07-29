@@ -2,7 +2,7 @@
                           Realizado por |ArgA|MIV
 *******************************************************************************/
 
-call compile preprocessFile "core\events_entrenamiento\initPlayerServer.sqf";
+call compile preprocessFile "core\events\initPlayerServer.sqf";
 
 /*******************************************************************************
                           Realizado por |ArgA|MIV

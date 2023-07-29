@@ -3,7 +3,7 @@
 *******************************************************************************/
 
 #define NAME "Libe Colombia"                  // Colocar nombre de mision
-#define COMPLETE_NAME "LibArga_Colombia_v3" // Nombre y versión de la misión
+#define COMPLETE_NAME "LibArga_Colombia_v4" // Nombre y versión de la misión
 #define IMAGE "Pictures\Mission\pic.jpg"                    // Colocar nombre y extension de la imagen de portada, ej "imgs\portada.jpg"
 #define DESCRIPTION "Liberation Chernarus"                              // Colocar descripcion de la mision entre las comillas
 
