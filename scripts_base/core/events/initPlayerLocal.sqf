@@ -6,6 +6,10 @@ if(!(hasInterface || isDedicated)) then {
     execVM "core\scripts\show_fps.sqf";
 };
 
+if (!hasInterface and !isServer) then {
+  player enableSimulation false;
+};
+
 /*******************************************************************************
                              Realizado por |ArgA|MIV
 *******************************************************************************/
